@@ -1,5 +1,7 @@
 package com.pedropathing.math;
 
+import java.util.TreeMap;
+
 /**
  * This is the MathFunctions class. This contains many useful math related methods that I use in
  * other classes to simplify code elsewhere.
@@ -128,5 +130,9 @@ public class MathFunctions {
             throw new IllegalArgumentException("Input range cannot be zero.");
         }
         return (n - x1) * (y2 - y1) / (x2 - x1) + y1;
+    }
+
+    public static double lerp(double a, double b, double t) {
+        return a + t * (b - a);
     }
 }
