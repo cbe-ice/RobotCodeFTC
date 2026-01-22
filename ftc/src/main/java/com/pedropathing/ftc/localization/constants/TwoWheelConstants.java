@@ -132,8 +132,8 @@ public class TwoWheelConstants {
         forwardPodY = 1;
         strafePodX = -2.5;
         IMU_HardwareMapName = "imu";
-        forwardEncoder_HardwareMapName = "leftFront";
-        strafeEncoder_HardwareMapName = "rightRear";
+        forwardEncoder_HardwareMapName = "rightFrontMotor";
+        strafeEncoder_HardwareMapName = "leftBackMotor";
         IMU_Orientation = new RevHubOrientationOnRobot(RevHubOrientationOnRobot.LogoFacingDirection.UP, RevHubOrientationOnRobot.UsbFacingDirection.LEFT);
         forwardEncoderDirection = Encoder.REVERSE;
         strafeEncoderDirection = Encoder.FORWARD;
